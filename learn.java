@@ -13,6 +13,7 @@ import java.util.Scanner;
           y = in.nextInt();
           z = x + y;
           m = x * y;
+	  p=  x / y;
           System.out.println("Sum of the integers = " + z);
 	  System.out.println("Product of the integers = " + m);
        }
