@@ -4,7 +4,7 @@ import java.util.Scanner;
     {
        public static void main(String args[])
        {
-          int x, y, z;
+          int x, y, z,m;
      
           System.out.println("Enter two integers to calculate their sum");
           Scanner in = new Scanner(System.in);
@@ -12,8 +12,9 @@ import java.util.Scanner;
           x = in.nextInt();
           y = in.nextInt();
           z = x + y;
-         
+          m = x * y;
           System.out.println("Sum of the integers = " + z);
+	  System.out.println("Product of the integers = " + m);
        }
     }
 
