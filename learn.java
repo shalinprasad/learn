@@ -14,6 +14,9 @@ import java.util.Scanner;
           z = x + y;
           m = x * y;
 	  p=  x - y;
+
+	  p=  x / y;
+
           System.out.println("Sum of the integers = " + z);
 	  System.out.println("Product of the integers = " + m);
        }
